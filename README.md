@@ -33,6 +33,13 @@
 - Use `json` or `xml` as value for the `format` parameter
 - If nothing is declared, the response will be set as `json` by default
 
+## TESTS NOTES
+
+- *TO-DO* all tests
+- The app context load test is running ok
+- The tests will be created using `Spring Test`, `Mockito`, `Hamcrest`, and `JSON Path`
+- The integration tests will be present on the `integration/connectors` and `controller` layers
+
 ## OPTIONAL REQUIREMENTS
 
 - The optional requirements (Docs) have not been made due to lack of time, sorry.
