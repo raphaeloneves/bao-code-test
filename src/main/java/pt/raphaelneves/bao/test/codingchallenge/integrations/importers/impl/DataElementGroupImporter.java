@@ -32,7 +32,7 @@ public class DataElementGroupImporter implements DataImporter {
     }
 
     @Override
-    @Scheduled(fixedDelay = 1000 * 60 * 10)
+    @Scheduled(fixedDelayString = "${time2update}")
     public void importData() {
         String response = connector.findAll();
         DataElementGroupWrapper wrappedResponse = wrapResponse(response);
